@@ -16,6 +16,7 @@ navLinks.forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
+        document.body.style.overflow = 'auto';
     });
 });
 
@@ -24,6 +25,7 @@ document.addEventListener('click', (e) => {
     if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
+        document.body.style.overflow = 'auto';
     }
 });
 
