@@ -423,6 +423,18 @@ ul {
     margin-bottom: 0.5rem;
 }
 
+.value__icon {
+    width: 77px;
+    height: 77px;
+    margin: 0 auto 0.5rem;
+    color: var(--white);
+}
+
+.value__icon svg {
+    width: 83%;
+    height: 83%;
+}
+
 .value__text {
     font-size: 1rem;
     opacity: 0.9;
