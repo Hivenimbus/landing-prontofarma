@@ -670,7 +670,7 @@ ul {
 .footer__title {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .footer__list {
