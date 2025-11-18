@@ -78,7 +78,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observe elements for animation
 const animateOnScroll = () => {
     const elements = document.querySelectorAll(
-        '.about__story, .service__card, .about__values, .value__item'
+        '.about__story, .service__card, .about__values, .value__item, .location__card, .location__map'
     );
     
     elements.forEach((el, index) => {
