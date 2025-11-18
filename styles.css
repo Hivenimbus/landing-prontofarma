@@ -297,6 +297,7 @@ ul {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: scaleY(-1);
 }
 
 .hero__wave svg {
