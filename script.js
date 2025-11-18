@@ -155,6 +155,6 @@ window.addEventListener('load', () => {
 });
 
 // Console greeting (optional)
-console.log('%c🏥 Farmácia Prontofarma', 'color: #2ecc71; font-size: 20px; font-weight: bold;');
-console.log('%cCuidado e confiança desde 1998', 'color: #3498db; font-size: 14px;');
+console.log('%c🏥 Farmácia Prontofarma', 'color: #A60303; font-size: 20px; font-weight: bold;');
+console.log('%cCuidado e confiança desde 1998', 'color: #1B378C; font-size: 14px;');
 
